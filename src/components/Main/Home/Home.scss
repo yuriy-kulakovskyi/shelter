@@ -1,0 +1,36 @@
+@import "../mixins.scss";
+
+.home {
+  width: 100%; min-height: 87vh;
+  @include flexSpaceBetween();
+  position: relative;
+
+  &__left {
+    &__title {
+      @include fontCommon();
+      font-size: 64px;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    &__subtitle {
+      @include fontCommon();
+      font-weight: 300;
+      font-size: 20px;
+      color: #fff;
+      margin-top: 25px;
+    }
+
+    button {
+      margin-top: 85px;
+    }
+  }
+
+  &__right {
+    &__image {
+      max-width: 503px; max-height: 604px;
+      position: absolute;
+      bottom: 0; right: 0;
+    }
+  }
+}
