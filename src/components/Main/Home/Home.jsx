@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '../Button/Button';
 import dog from "./img/dog.png";
-import "./Home.scss";
+import "./Home.css";
 
 const Home = () => {
   return (

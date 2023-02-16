@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from "./img/logo.png";
-import "./Header.scss";
+import "./Header.css";
 import Button from '../Button/Button';
 
 const nav = [

@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:300,regular,500,600,700");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif; }
+
+.App .container {
+  width: 1220px;
+  margin: 0 auto; }
+.App img {
+  max-width: 100%; }
+.App .button {
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 18px 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 10px;
+  color: #fff;
+  display: flex;
+  gap: 15px;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  transition: .3s ease-in; }
+  .App .button:hover {
+    background-color: #fff;
+    color: #333; }
+    .App .button:hover svg {
+      fill: #333; }
+
+/*# sourceMappingURL=App.css.map */
