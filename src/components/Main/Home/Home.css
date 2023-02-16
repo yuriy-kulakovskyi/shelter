@@ -1,0 +1,32 @@
+.home {
+  width: 100%;
+  min-height: 87vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative; }
+  .home__left__title {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    font-size: 64px;
+    font-weight: 600;
+    color: #fff; }
+  .home__left__subtitle {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    font-weight: 300;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 25px; }
+  .home__left button {
+    margin-top: 85px; }
+  .home__right__image {
+    max-width: 503px;
+    max-height: 604px;
+    position: absolute;
+    bottom: 0;
+    right: 0; }
+
+/*# sourceMappingURL=Home.css.map */
